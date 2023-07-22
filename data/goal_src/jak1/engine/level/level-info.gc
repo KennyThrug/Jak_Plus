@@ -2018,7 +2018,7 @@
                            :nickname 'ftp          ;; nickname
                            :packages '()
                            :sound-banks '()
-                           :music-bank #f
+                           :music-bank 'jungleb
                            :ambient-sounds '()
                            :mood '*default-mood*
                            :mood-func 'update-mood-default
@@ -2026,8 +2026,8 @@
                            :sky #t
                            :continues '((new 'static 'continue-point
                                              :name "forbidden-temple-start"
-                                             :level 'test-zone
-                                             :trans (new 'static 'vector :x (meters 381.5) :y (meters -55.56) :z (meters -255.54) :w 1.0)
+                                             :level 'forbidden-temple
+                                             :trans (new 'static 'vector :x (meters 362.59) :y (meters -49.07) :z (meters -240.88) :w 1.0)
                                              :quat (new 'static 'quaternion  :w 1.0)
                                              :camera-trans (new 'static 'vector :x 0.0 :y 4096.0 :z 0.0 :w 1.0)
                                              :camera-rot (new 'static 'array float 9 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0)
@@ -2044,7 +2044,7 @@
                            :alt-load-commands '()
                            :bsp-mask #xffffffffffffffff
                            :bsphere (new 'static 'sphere :w 167772160000.0)
-                           :bottom-height (meters -20)
+                           :bottom-height (meters -80)
                            :run-packages '()
                            :wait-for-load #t
                            )
