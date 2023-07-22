@@ -2016,12 +2016,12 @@
                            :name 'forbidden-temple
                            :visname 'forbidden-temple-vis ;; name + -vis
                            :nickname 'ftp          ;; nickname
-                           :packages '()
+                           :packages '(jungleb)
                            :sound-banks '()
                            :music-bank 'jungleb
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
+                           :mood '*jungleb-mood*
+                           :mood-func 'update-mood-jungleb
                            :ocean #f
                            :sky #t
                            :continues '((new 'static 'continue-point
@@ -2033,9 +2033,9 @@
                                              :camera-rot (new 'static 'array float 9 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0)
                                              :load-commands '()
                                              :vis-nick 'none
-                                             :lev0 'forbidden-temple
+                                             :lev0 'jungle
                                              :disp0 'display
-                                             :lev1 'jungle
+                                             :lev1 'forbidden-temple
                                              :disp1 'display
                                              ))
                            :tasks '()
