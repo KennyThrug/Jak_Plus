@@ -1,6 +1,6 @@
-;; gd file for revamped jungle temple
 
 ("FTP.DGO"
-("static-screen.o"
-"forbidden-temple.go"
-))
+("static-screen.o" "forbidden-temple.go")
+("forbidden-temple.go" "forbidden_temple")
+("plat-ag.go" "plat")
+)
