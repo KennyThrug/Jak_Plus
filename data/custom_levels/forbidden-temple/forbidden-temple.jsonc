@@ -105,6 +105,16 @@
             "lump":{
                 "name":"FTP-platform-02"
             }
+        },
+        {
+            "trans": [364.77,-45.60,-247.79],
+            "etype": "gambler",
+            "game_task": 0,
+            "quat":[0,0,0,1],
+            "bsphere":[-510.0,6.5,390.0,10.0],
+            "lump":{
+                "name":"FTP-Bird-Lady"
+            }
         }
     ]
 }
